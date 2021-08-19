@@ -1,3 +1,3 @@
-module github.com/wchresta/linearbin
+module github.com/wchresta/fastbinning
 
 go 1.16

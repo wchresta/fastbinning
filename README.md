@@ -1,4 +1,4 @@
-# linearbin
+# fastbinning
 Non-uniform quantization with linear average-case computation time
 
 ## Introduction
@@ -10,7 +10,7 @@ This is an implementation of the quantization or binning algorithm proposed in [
 We use the example presented in the paper:
 
 ```go
-bin, err := New([]float64{2, 11, 19, 20, 21, 27, 29, 30})
+bin, err := fastbinning.New([]float64{2, 11, 19, 20, 21, 27, 29, 30})
 if err != nil {
     // This only happens if the Boundaries are not monotonically increasing.
     fmt.Printf("Creation of Bin failed: %s", err.Error())

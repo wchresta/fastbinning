@@ -1,4 +1,4 @@
-package linearbin
+package fastbinning
 
 import "testing"
 
